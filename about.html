@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>About CSIL Loan - Nigeria's Premier Digital Lending Platform</title>
+    <meta name="description" content="Learn about CSIL Loan's mission to provide fast, secure loans to Nigerians. Founded in Lagos 2018, we've disbursed ₦5B+ to 50K+ satisfied customers.">
+    <meta name="keywords" content="CSIL Loan about, Nigerian loan company, digital lending Lagos, CAC registered, CBN approved">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'poppins': ['Poppins', 'sans-serif'],
+                        'inter': ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        'primary': '#1E40AF',
+                        'secondary': '#059669',
+                        'accent': '#F59E0B',
+                        'dark': '#111827',
+                        'light': '#F8FAFC',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-light font-inter">
+    <!-- WhatsApp Floating Button -->
+    <div class="fixed bottom-6 right-6 z-50">
+        <a href="https://wa.me/2348136777105" target="_blank" class="bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-lg transition-all duration-300 hover:scale-110 flex items-center justify-center group">
+            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.465 3.63"/>
+            </svg>
+            <span class="absolute right-16 bg-gray-800 text-white px-3 py-1 rounded-lg text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap">
+                Chat with us on WhatsApp
+            </span>
+        </a>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg fixed w-full top-0 z-40 border-b border-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center nav-brand">
+                    <a href="index.html" class="flex items-center logo-container group cursor-pointer">
+                        <!-- Logo Container -->
+                        <div class="relative mr-3 md:mr-4">
+                            <div class="w-12 h-12 md:w-14 md:h-14 bg-gradient-to-r from-primary to-secondary rounded-xl flex items-center justify-center shadow-lg overflow-hidden transition-all duration-300 group-hover:scale-105 logo-image-container">
+                                <!-- CSIL Company Logo -->
+                                <img src="images/csil-logo.jpg" 
+                                     alt="CLIENTS STABLE INVESTMENT LIMITED Logo" 
+                                     class="w-full h-full object-cover"
+                                     onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                                <!-- Fallback logo -->
+                                <span class="hidden text-white font-bold text-xl md:text-2xl font-poppins">CSIL</span>
+                            </div>
+                        </div>
+                        
+                        <!-- Company Info -->
+                        <div class="flex flex-col company-info min-w-0">
+                            <!-- Company Name -->
+                            <div class="font-poppins leading-tight company-name">
+                                <div class="text-sm md:text-lg lg:text-xl font-bold text-dark tracking-wide">
+                                    CLIENTS STABLE
+                                </div>
+                                <div class="text-sm md:text-lg lg:text-xl font-bold text-secondary -mt-0.5 md:-mt-1">
+                                    INVESTMENT LIMITED
+                                </div>
+                            </div>
+                            
+                            <!-- Company Slogan -->
+                            <div class="text-xs md:text-sm text-gray-600 font-medium tracking-wide mt-0.5 md:mt-1 uppercase company-slogan">
+                                We Are Always Available To Serve
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <!-- Desktop Navigation -->
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="index.html" class="nav-link text-gray-700 hover:text-primary font-medium transition-colors duration-200">Home</a>
+                    <a href="about.html" class="nav-link text-primary font-medium transition-colors duration-200">About</a>
+                    <a href="services.html" class="nav-link text-gray-700 hover:text-primary font-medium transition-colors duration-200">Services</a>
+                    <a href="apply-loan.html" class="nav-link bg-primary text-white px-6 py-2 rounded-full font-semibold hover:bg-blue-700 transition-all duration-300 transform hover:scale-105">Apply Loan</a>
+                    <a href="investments.html" class="nav-link text-gray-700 hover:text-primary font-medium transition-colors duration-200">Investments</a>
+                    <a href="contact.html" class="nav-link text-gray-700 hover:text-primary font-medium transition-colors duration-200">Contact</a>
+                </div>
+
+                <!-- Mobile menu button -->
+                <div class="md:hidden flex items-center">
+                    <button onclick="toggleMobileMenu()" class="text-gray-700 hover:text-primary focus:outline-none transition-colors duration-200">
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Navigation -->
+        <div id="mobile-menu" class="md:hidden hidden bg-white border-t border-gray-100">
+            <div class="px-2 pt-2 pb-3 space-y-1">
+                <a href="index.html" class="block w-full text-left px-3 py-2 text-gray-700 hover:text-primary font-medium transition-colors duration-200">Home</a>
+                <a href="about.html" class="block w-full text-left px-3 py-2 text-primary font-medium transition-colors duration-200">About</a>
+                <a href="services.html" class="block w-full text-left px-3 py-2 text-gray-700 hover:text-primary font-medium transition-colors duration-200">Services</a>
+                <a href="apply-loan.html" class="block w-full text-left px-3 py-2 bg-primary text-white rounded-lg font-semibold mx-2 my-1 hover:bg-blue-700 transition-colors duration-200">Apply Loan</a>
+                <a href="investments.html" class="block w-full text-left px-3 py-2 text-gray-700 hover:text-primary font-medium transition-colors duration-200">Investments</a>
+                <a href="contact.html" class="block w-full text-left px-3 py-2 text-gray-700 hover:text-primary font-medium transition-colors duration-200">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section relative overflow-hidden bg-gradient-to-br from-slate-50 via-white to-blue-50 pt-32 md:pt-36 lg:pt-40 pb-20">
+        <!-- Background Pattern -->
+        <div class="absolute inset-0 opacity-5">
+            <div class="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-primary/20 via-transparent to-secondary/20"></div>
+            <div class="absolute top-1/4 left-1/4 w-64 h-64 bg-primary/10 rounded-full blur-3xl"></div>
+            <div class="absolute bottom-1/4 right-1/4 w-80 h-80 bg-secondary/10 rounded-full blur-3xl"></div>
+        </div>
+        
+        <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-4xl mx-auto">
+                <!-- Badge -->
+                <div class="inline-flex items-center px-4 py-2 rounded-full bg-primary/10 text-primary font-semibold text-sm mb-6 border border-primary/20">
+                    <span class="w-2 h-2 bg-primary rounded-full mr-2 animate-pulse"></span>
+                    Nigeria's Premier Digital Lending Platform
+                </div>
+                
+                <h1 class="text-5xl md:text-6xl lg:text-7xl font-bold text-dark mb-6 font-poppins leading-tight">
+                    Transforming 
+                    <span class="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
+                        Finance
+                    </span>
+                    <br>in Nigeria
+                </h1>
+                
+                <p class="text-xl md:text-2xl text-gray-600 mb-8 leading-relaxed max-w-3xl mx-auto">
+                    Since 2018, we've been empowering Nigerians with fast, secure, and affordable financial solutions that change lives and grow businesses.
+                </p>
+                
+                <!-- Stats Preview -->
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-2xl mx-auto">
+                    <div class="text-center">
+                        <div class="text-3xl font-bold text-primary mb-1">₦<span class="counter" data-target="5">0</span>B+</div>
+                        <div class="text-sm text-gray-600">Disbursed</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-3xl font-bold text-secondary mb-1"><span class="counter" data-target="50">0</span>K+</div>
+                        <div class="text-sm text-gray-600">Customers</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-3xl font-bold text-accent mb-1"><span class="counter" data-target="7">0</span>+</div>
+                        <div class="text-sm text-gray-600">Years</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-3xl font-bold text-primary mb-1"><span class="counter" data-target="98">0</span>%</div>
+                        <div class="text-sm text-gray-600">Satisfaction</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Story Section -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-2 gap-16 items-center">
+                <!-- Content -->
+                <div class="space-y-8">
+                    <div>
+                        <div class="inline-flex items-center px-3 py-1 rounded-full bg-blue-50 text-primary font-semibold text-sm mb-4">
+                            Our Journey
+                        </div>
+                        <h2 class="text-4xl md:text-5xl font-bold text-dark mb-6 font-poppins leading-tight">
+                            From Vision to 
+                            <span class="text-primary">Reality</span>
+                        </h2>
+                    </div>
+                    
+                    <div class="space-y-6 text-lg leading-relaxed text-gray-700">
+                        <p>
+                            Founded in 2018 in Lagos, Nigeria, CSIL Loan emerged from a profound understanding that traditional banking was leaving millions of hardworking Nigerians without access to fair, fast, and affordable credit.
+                        </p>
+                        <p>
+                            Our founders, seasoned banking professionals with deep roots in Nigeria's financial landscape, recognized the gap between conventional lending practices and the real needs of modern Nigerians.
+                        </p>
+                        <p class="font-medium text-dark">
+                            Today, we stand as Nigeria's most trusted digital lending platform, having transformed over 50,000 lives and businesses across the nation.
+                        </p>
+                    </div>
+                    
+                    <!-- Key Achievements -->
+                    <div class="grid grid-cols-2 gap-6">
+                        <div class="bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl p-6 border border-blue-200">
+                            <div class="text-2xl font-bold text-primary mb-2">₦<span class="counter" data-target="5">0</span>B+</div>
+                            <div class="text-sm text-gray-700 font-medium">Total Loans Disbursed</div>
+                            <div class="text-xs text-gray-500 mt-1">Empowering Nigerian dreams</div>
+                        </div>
+                        <div class="bg-gradient-to-br from-green-50 to-green-100 rounded-2xl p-6 border border-green-200">
+                            <div class="text-2xl font-bold text-secondary mb-2"><span class="counter" data-target="24">0</span>/7</div>
+                            <div class="text-sm text-gray-700 font-medium">Customer Support</div>
+                            <div class="text-xs text-gray-500 mt-1">Always here for you</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- CEO Message Card -->
+                <div class="relative">
+                    <div class="bg-gradient-to-br from-white to-gray-50 rounded-3xl p-8 shadow-2xl border border-gray-100 relative overflow-hidden">
+                        <!-- Background Pattern -->
+                        <div class="absolute top-0 right-0 w-32 h-32 bg-primary/5 rounded-full -translate-y-16 translate-x-16"></div>
+                        <div class="absolute bottom-0 left-0 w-24 h-24 bg-secondary/5 rounded-full translate-y-12 -translate-x-12"></div>
+                        
+                        <div class="relative">
+                            <!-- Quote Icon -->
+                            <div class="w-12 h-12 bg-gradient-to-r from-primary to-secondary rounded-2xl flex items-center justify-center mb-6">
+                                <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h4v10h-10z"/>
+                                </svg>
+                            </div>
+                            
+                            <h3 class="text-xl font-bold text-dark mb-4 font-poppins">CEO's Message</h3>
+                            
+                            <blockquote class="text-gray-700 italic text-lg leading-relaxed mb-6">
+                                "At CSIL Loan, we don't just provide loans – we create opportunities. Every Nigerian deserves access to financial tools that can transform their life, and we're here to make that a reality through technology, trust, and unwavering commitment to excellence."
+                            </blockquote>
+                            
+                            <!-- CEO Info -->
+                            <div class="flex items-center">
+                                <div class="w-16 h-16 bg-gradient-to-r from-primary to-secondary rounded-full flex items-center justify-center text-white font-bold text-lg mr-4">
+                                    OA
+                                </div>
+                                <div>
+                                    <div class="font-bold text-dark">Olumide Adebayo</div>
+                                    <div class="text-primary font-semibold">CEO & Founder</div>
+                                    <div class="text-sm text-gray-600">15+ years in Banking & Fintech</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust & Credentials Section -->
+    <section class="py-20 bg-gradient-to-r from-slate-50 to-blue-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold text-dark mb-6 font-poppins">
+                    Built on <span class="text-primary">Trust</span>
+                </h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Your financial security is our priority. We maintain the highest standards of regulation, security, and transparency.
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
+                <!-- Trust Badge 1 -->
+                <div class="bg-white rounded-2xl p-6 text-center shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300 group">
+                    <div class="w-16 h-16 bg-gradient-to-r from-primary to-blue-700 rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
+                        <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                        </svg>
+                    </div>
+                    <h3 class="font-bold text-dark mb-2">CAC Registered</h3>
+                    <p class="text-sm text-gray-600">Corporate Affairs Commission</p>
+                    <p class="text-xs text-primary font-medium mt-1">RC 1234567</p>
+                </div>
+
+                <!-- Trust Badge 2 -->
+                <div class="bg-white rounded-2xl p-6 text-center shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300 group">
+                    <div class="w-16 h-16 bg-gradient-to-r from-secondary to-green-700 rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
+                        <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M18,8h-1V6c0-2.76-2.24-5-5-5S7,3.24,7,6v2H6c-1.1,0-2,0.9-2,2v10c0,1.1,0.9,2,2,2h12c1.1,0,2-0.9,2-2V10C20,8.9,19.1,8,18,8z M12,17c-1.1,0-2-0.9-2-2s0.9-2,2-2s2,0.9,2,2S13.1,17,12,17z M15.1,8H8.9V6c0-1.71,1.39-3.1,3.1-3.1s3.1,1.39,3.1,3.1V8z"/>
+                        </svg>
+                    </div>
+                    <h3 class="font-bold text-dark mb-2">CBN Approved</h3>
+                    <p class="text-sm text-gray-600">Central Bank of Nigeria</p>
+                    <p class="text-xs text-primary font-medium mt-1">Licensed MFI</p>
+                </div>
+
+                <!-- Trust Badge 3 -->
+                <div class="bg-white rounded-2xl p-6 text-center shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300 group">
+                    <div class="w-16 h-16 bg-gradient-to-r from-accent to-orange-600 rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
+                        <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12,1L3,5V11C3,16.55 6.84,21.74 12,23C17.16,21.74 21,16.55 21,11V5L12,1M12,7C13.4,7 14.8,8.6 14.8,10V11.5C14.8,12.6 13.9,13.5 12.8,13.5H11.2C10.1,13.5 9.2,12.6 9.2,11.5V10C9.2,8.6 10.6,7 12,7M12,8.2C11.2,8.2 10.5,8.7 10.5,9.5V10.8C10.5,11.1 10.8,11.3 11.2,11.3H12.8C13.2,11.3 13.5,11.1 13.5,10.8V9.5C13.5,8.7 12.8,8.2 12,8.2Z"/>
+                        </svg>
+                    </div>
+                    <h3 class="font-bold text-dark mb-2">ISO Certified</h3>
+                    <p class="text-sm text-gray-600">Information Security</p>
+                    <p class="text-xs text-primary font-medium mt-1">ISO 27001</p>
+                </div>
+
+                <!-- Trust Badge 4 -->
+                <div class="bg-white rounded-2xl p-6 text-center shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300 group">
+                    <div class="w-16 h-16 bg-gradient-to-r from-purple-500 to-purple-700 rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
+                        <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M16,17V19H2V17S2,13 9,13 16,17 16,17M12.5,7.5A3.5,3.5 0 0,1 9,11A3.5,3.5 0 0,1 5.5,7.5A3.5,3.5 0 0,1 9,4A3.5,3.5 0 0,1 12.5,7.5M15.94,13A5.32,5.32 0 0,1 18,17V19H22V17S22,13.37 15.94,13M15,4A3.39,3.39 0 0,0 13.07,4.59A5,5 0 0,1 13.07,10.41A3.39,3.39 0 0,0 15,11A3.5,3.5 0 0,0 18.5,7.5A3.5,3.5 0 0,0 15,4Z"/>
+                        </svg>
+                    </div>
+                    <h3 class="font-bold text-dark mb-2">FHAN Member</h3>
+                    <p class="text-sm text-gray-600">Finance Houses Association</p>
+                    <p class="text-xs text-primary font-medium mt-1">of Nigeria</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mission, Vision & Values -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold text-dark mb-6 font-poppins">
+                    Our <span class="text-primary">Foundation</span>
+                </h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Built on principles that guide everything we do, from product development to customer service.
+                </p>
+            </div>
+            
+            <div class="grid lg:grid-cols-3 gap-8">
+                <!-- Mission -->
+                <div class="relative group">
+                    <div class="absolute -inset-1 bg-gradient-to-r from-primary to-secondary rounded-3xl blur opacity-20 group-hover:opacity-40 transition duration-300"></div>
+                    <div class="relative bg-white rounded-3xl p-8 shadow-xl border border-gray-100">
+                        <div class="text-center mb-6">
+                            <div class="w-20 h-20 bg-gradient-to-r from-primary to-blue-700 rounded-2xl flex items-center justify-center mx-auto mb-4">
+                                <svg class="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                </svg>
+                            </div>
+                            <h3 class="text-2xl font-bold text-dark font-poppins">Mission</h3>
+                        </div>
+                        <p class="text-gray-700 text-center leading-relaxed">
+                            To democratize access to financial services by providing fast, secure, and affordable credit solutions that empower every Nigerian to achieve their dreams and build a better future.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Vision -->
+                <div class="relative group">
+                    <div class="absolute -inset-1 bg-gradient-to-r from-secondary to-green-700 rounded-3xl blur opacity-20 group-hover:opacity-40 transition duration-300"></div>
+                    <div class="relative bg-white rounded-3xl p-8 shadow-xl border border-gray-100">
+                        <div class="text-center mb-6">
+                            <div class="w-20 h-20 bg-gradient-to-r from-secondary to-green-700 rounded-2xl flex items-center justify-center mx-auto mb-4">
+                                <svg class="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M10 12a2 2 0 100-4 2 2 0 000 4z"/>
+                                    <path fill-rule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clip-rule="evenodd"/>
+                                </svg>
+                            </div>
+                            <h3 class="text-2xl font-bold text-dark font-poppins">Vision</h3>
+                        </div>
+                        <p class="text-gray-700 text-center leading-relaxed">
+                            To become Africa's leading digital financial services ecosystem, revolutionizing how individuals and businesses access, manage, and grow their wealth across the continent.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Values -->
+                <div class="relative group">
+                    <div class="absolute -inset-1 bg-gradient-to-r from-accent to-orange-600 rounded-3xl blur opacity-20 group-hover:opacity-40 transition duration-300"></div>
+                    <div class="relative bg-white rounded-3xl p-8 shadow-xl border border-gray-100">
+                        <div class="text-center mb-6">
+                            <div class="w-20 h-20 bg-gradient-to-r from-accent to-orange-600 rounded-2xl flex items-center justify-center mx-auto mb-4">
+                                <svg class="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 24 24">
+                                    <path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd"/>
+                                </svg>
+                            </div>
+                            <h3 class="text-2xl font-bold text-dark font-poppins">Values</h3>
+                        </div>
+                        <div class="space-y-3">
+                            <div class="flex items-center">
+                                <span class="w-2 h-2 bg-primary rounded-full mr-3"></span>
+                                <span class="text-gray-700 font-medium">Integrity</span>
+                            </div>
+                            <div class="flex items-center">
+                                <span class="w-2 h-2 bg-secondary rounded-full mr-3"></span>
+                                <span class="text-gray-700 font-medium">Innovation</span>
+                            </div>
+                            <div class="flex items-center">
+                                <span class="w-2 h-2 bg-accent rounded-full mr-3"></span>
+                                <span class="text-gray-700 font-medium">Excellence</span>
+                            </div>
+                            <div class="flex items-center">
+                                <span class="w-2 h-2 bg-primary rounded-full mr-3"></span>
+                                <span class="text-gray-700 font-medium">Customer-Centricity</span>
+                            </div>
+                            <div class="flex items-center">
+                                <span class="w-2 h-2 bg-secondary rounded-full mr-3"></span>
+                                <span class="text-gray-700 font-medium">Transparency</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Leadership Team -->
+    <section class="py-20 bg-gradient-to-br from-slate-50 to-blue-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold text-dark mb-6 font-poppins">
+                    Leadership <span class="text-primary">Excellence</span>
+                </h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Meet the visionary leaders driving Nigeria's financial transformation through innovation, expertise, and unwavering commitment to excellence.
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Team Member 1 -->
+                <div class="bg-white rounded-3xl p-8 shadow-xl border border-gray-100 text-center group hover:shadow-2xl transition-all duration-300">
+                    <div class="relative mb-6">
+                        <div class="w-32 h-32 bg-gradient-to-r from-primary to-secondary rounded-full flex items-center justify-center mx-auto text-white font-bold text-3xl group-hover:scale-110 transition-transform duration-300 shadow-lg">
+                            OA
+                        </div>
+                        <div class="absolute -bottom-2 -right-2 w-8 h-8 bg-accent rounded-full flex items-center justify-center shadow-lg">
+                            <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <h4 class="text-xl font-bold text-dark mb-2 font-poppins">Olumide Adebayo</h4>
+                    <p class="text-primary font-semibold mb-3">CEO & Founder</p>
+                    <p class="text-sm text-gray-600 leading-relaxed">
+                        Visionary leader with 15+ years in banking and fintech. Former Vice President at First Bank Nigeria, passionate about financial inclusion.
+                    </p>
+                </div>
+
+                <!-- Team Member 2 -->
+                <div class="bg-white rounded-3xl p-8 shadow-xl border border-gray-100 text-center group hover:shadow-2xl transition-all duration-300">
+                    <div class="relative mb-6">
+                        <div class="w-32 h-32 bg-gradient-to-r from-secondary to-green-700 rounded-full flex items-center justify-center mx-auto text-white font-bold text-3xl group-hover:scale-110 transition-transform duration-300 shadow-lg">
+                            AI
+                        </div>
+                        <div class="absolute -bottom-2 -right-2 w-8 h-8 bg-accent rounded-full flex items-center justify-center shadow-lg">
+                            <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <h4 class="text-xl font-bold text-dark mb-2 font-poppins">Aisha Ibrahim</h4>
+                    <p class="text-primary font-semibold mb-3">Chief Technology Officer</p>
+                    <p class="text-sm text-gray-600 leading-relaxed">
+                        Technology innovator with 12+ years in fintech development. Expert in blockchain, AI, and secure payment systems.
+                    </p>
+                </div>
+
+                <!-- Team Member 3 -->
+                <div class="bg-white rounded-3xl p-8 shadow-xl border border-gray-100 text-center group hover:shadow-2xl transition-all duration-300">
+                    <div class="relative mb-6">
+                        <div class="w-32 h-32 bg-gradient-to-r from-accent to-orange-600 rounded-full flex items-center justify-center mx-auto text-white font-bold text-3xl group-hover:scale-110 transition-transform duration-300 shadow-lg">
+                            EN
+                        </div>
+                        <div class="absolute -bottom-2 -right-2 w-8 h-8 bg-primary rounded-full flex items-center justify-center shadow-lg">
+                            <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <h4 class="text-xl font-bold text-dark mb-2 font-poppins">Emeka Nwankwo</h4>
+                    <p class="text-primary font-semibold mb-3">Chief Risk Officer</p>
+                    <p class="text-sm text-gray-600 leading-relaxed">
+                        Risk management specialist with 10+ years in credit analysis, compliance, and financial risk assessment across Africa.
+                    </p>
+                </div>
+
+                <!-- Team Member 4 -->
+                <div class="bg-white rounded-3xl p-8 shadow-xl border border-gray-100 text-center group hover:shadow-2xl transition-all duration-300">
+                    <div class="relative mb-6">
+                        <div class="w-32 h-32 bg-gradient-to-r from-purple-500 to-purple-700 rounded-full flex items-center justify-center mx-auto text-white font-bold text-3xl group-hover:scale-110 transition-transform duration-300 shadow-lg">
+                            KO
+                        </div>
+                        <div class="absolute -bottom-2 -right-2 w-8 h-8 bg-secondary rounded-full flex items-center justify-center shadow-lg">
+                            <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <h4 class="text-xl font-bold text-dark mb-2 font-poppins">Kemi Oluwaseun</h4>
+                    <p class="text-primary font-semibold mb-3">Chief Marketing Officer</p>
+                    <p class="text-sm text-gray-600 leading-relaxed">
+                        Digital marketing strategist with 8+ years in customer acquisition, brand building, and market expansion across Nigeria.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="py-20 bg-gradient-to-r from-primary via-blue-700 to-secondary relative overflow-hidden">
+        <!-- Background Pattern -->
+        <div class="absolute inset-0 opacity-10">
+            <div class="absolute top-0 left-0 w-full h-full bg-black/20"></div>
+            <div class="absolute top-1/4 left-1/4 w-96 h-96 bg-white/10 rounded-full blur-3xl"></div>
+            <div class="absolute bottom-1/4 right-1/4 w-80 h-80 bg-accent/20 rounded-full blur-3xl"></div>
+        </div>
+        
+        <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-4xl md:text-5xl font-bold text-white mb-6 font-poppins">
+                Ready to Transform Your Financial Future?
+            </h2>
+            <p class="text-xl text-white/90 mb-8 max-w-3xl mx-auto">
+                Join over 50,000 satisfied customers who trust CSIL Loan for their financial needs. Experience the difference of working with Nigeria's premier digital lending platform.
+            </p>
+            
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="apply-loan.html" class="bg-accent hover:bg-yellow-500 text-dark px-8 py-4 rounded-full font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg">
+                    Apply for Loan Now
+                </a>
+                <a href="contact.html" class="bg-white/10 hover:bg-white/20 text-white px-8 py-4 rounded-full font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg border border-white/20">
+                    Contact Our Team
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+<footer class="bg-gradient-to-r from-dark via-gray-800 to-dark text-white py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid lg:grid-cols-5 md:grid-cols-3 gap-8">
+            <!-- Company Info -->
+            <div class="lg:col-span-2">
+                <div class="flex items-center mb-6 group">
+                    <!-- Logo Container -->
+                    <div class="relative mr-4">
+                        <div class="w-14 h-14 bg-gradient-to-r from-primary to-secondary rounded-xl flex items-center justify-center shadow-lg overflow-hidden transition-all duration-300 group-hover:scale-105">
+                            <!-- CSIL Company Logo -->
+                            <img src="images/csil-logo.jpg" 
+                                 alt="CLIENTS STABLE INVESTMENT LIMITED Logo" 
+                                 class="w-full h-full object-cover"
+                                 onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <!-- Fallback logo -->
+                            <span class="hidden text-white font-bold text-2xl font-poppins">CSIL</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Company Info -->
+                    <div class="flex flex-col">
+                        <!-- Company Name -->
+                        <div class="font-poppins leading-tight">
+                            <div class="text-lg font-bold text-white tracking-wide">
+                                CLIENTS STABLE
+                            </div>
+                            <div class="text-lg font-bold text-secondary -mt-1">
+                                INVESTMENT LIMITED
+                            </div>
+                        </div>
+                        
+                        <!-- Company Slogan -->
+                        <div class="text-xs text-gray-300 font-medium tracking-wide mt-1 uppercase">
+                            We Are Always Available To Serve
+                        </div>
+                    </div>
+                </div>
+                <p class="text-gray-300 mb-6 max-w-md">Nigeria's premier digital lending platform, empowering individuals and businesses with fast, secure, and affordable financial solutions since 2018.</p>
+                
+                <!-- Trust Badges -->
+                <div class="space-y-3 mb-6">
+                    <div class="flex items-center">
+                        <span class="text-accent mr-2">✓</span>
+                        <span class="text-sm text-gray-300">CAC Registered - RC 1234567</span>
+                    </div>
+                    <div class="flex items-center">
+                        <span class="text-accent mr-2">✓</span>
+                        <span class="text-sm text-gray-300">CBN Approved Microfinance Institution</span>
+                    </div>
+                    <div class="flex items-center">
+                        <span class="text-accent mr-2">✓</span>
+                        <span class="text-sm text-gray-300">ISO 27001 Security Certified</span>
+                    </div>
+                </div>
+
+                <!-- Social Media -->
+                <div class="flex space-x-4">
+                    <a href="#" class="w-10 h-10 bg-primary hover:bg-blue-700 rounded-lg flex items-center justify-center transition-all duration-300 transform hover:scale-110">
+                        <span class="text-white font-bold text-sm">f</span>
+                    </a>
+                    <a href="#" class="w-10 h-10 bg-blue-400 hover:bg-blue-500 rounded-lg flex items-center justify-center transition-all duration-300 transform hover:scale-110">
+                        <span class="text-white font-bold text-sm">t</span>
+                    </a>
+                    <a href="#" class="w-10 h-10 bg-pink-600 hover:bg-pink-700 rounded-lg flex items-center justify-center transition-all duration-300 transform hover:scale-110">
+                        <span class="text-white font-bold text-sm">ig</span>
+                    </a>
+                    <a href="#" class="w-10 h-10 bg-blue-800 hover:bg-blue-900 rounded-lg flex items-center justify-center transition-all duration-300 transform hover:scale-110">
+                        <span class="text-white font-bold text-sm">in</span>
+                    </a>
+                    <a href="https://wa.me/2348012345678" target="_blank" class="w-10 h-10 bg-secondary hover:bg-green-700 rounded-lg flex items-center justify-center transition-all duration-300 transform hover:scale-110">
+                        <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.465 3.63"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Quick Links -->
+            <div>
+                <h3 class="text-lg font-semibold mb-6 text-accent font-poppins">Quick Links</h3>
+                <ul class="space-y-3 text-gray-300">
+                    <li><a href="apply-loan.html" class="hover:text-accent transition duration-300 text-left">Apply for Loan</a></li>
+                    <li><a href="investments.html" class="hover:text-accent transition duration-300 text-left">Investment Plans</a></li>
+                    <li><a href="#" onclick="checkEligibility()" class="hover:text-accent transition duration-300 text-left">Check Eligibility</a></li>
+                    <li><a href="#" class="hover:text-accent transition duration-300">Loan Calculator</a></li>
+                    <li><a href="#" class="hover:text-accent transition duration-300">Download App</a></li>
+                </ul>
+            </div>
+            
+            <!-- Services -->
+            <div>
+                <h3 class="text-lg font-semibold mb-6 text-accent font-poppins">Our Services</h3>
+                <ul class="space-y-3 text-gray-300">
+                    <li><a href="services.html" class="hover:text-accent transition duration-300">Personal Loans</a></li>
+                    <li><a href="services.html" class="hover:text-accent transition duration-300">Business Loans</a></li>
+                    <li><a href="services.html" class="hover:text-accent transition duration-300">Emergency Loans</a></li>
+                    <li><a href="investments.html" class="hover:text-accent transition duration-300">Investment Options</a></li>
+                    <li><a href="services.html" class="hover:text-accent transition duration-300">Financial Advisory</a></li>
+                </ul>
+            </div>
+            
+            <!-- Contact Info -->
+            <div>
+                <h3 class="text-lg font-semibold mb-6 text-accent font-poppins">Contact Us</h3>
+                <div class="space-y-4 text-gray-300">
+                    <div class="flex items-start">
+                        <span class="text-accent mr-2 mt-1">📍</span>
+                        <div>
+                            <p class="text-sm">Suite 45, Crystal Plaza</p>
+                            <p class="text-sm">Victoria Island, Lagos</p>
+                            <p class="text-sm">Nigeria</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center">
+                        <span class="text-accent mr-2">📞</span>
+                        <a href="tel:+2348012345678" class="text-sm hover:text-accent transition duration-300">+234 801 234 5678</a>
+                    </div>
+                    <div class="flex items-center">
+                        <span class="text-accent mr-2">✉️</span>
+                        <a href="mailto:info@csilloan.ng" class="text-sm hover:text-accent transition duration-300">info@csilloan.ng</a>
+                    </div>
+                    <div class="flex items-center">
+                        <span class="text-accent mr-2">💬</span>
+                        <a href="https://wa.me/2348012345678" target="_blank" class="text-sm hover:text-accent transition duration-300">WhatsApp Support</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Referral Program Banner -->
+        <div class="mt-12 bg-gradient-to-r from-primary to-secondary rounded-2xl p-6 text-center">
+            <h3 class="text-xl font-bold mb-2 font-poppins">Refer Friends, Earn ₦1,000</h3>
+            <p class="text-sm opacity-90 mb-4">Get ₦1,000 for every successful loan referral. Your friends get faster approval!</p>
+            <button onclick="showReferralProgram()" class="bg-accent hover:bg-yellow-500 text-dark px-6 py-2 rounded-lg font-semibold transition-all duration-300">
+                Learn More
+            </button>
+        </div>
+        
+        <!-- Bottom Bar -->
+        <div class="border-t border-gray-700 mt-12 pt-8">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="text-gray-400 text-sm mb-4 md:mb-0">
+                    <p>&copy; 2025 CSIL Loan Nigeria Limited. All rights reserved.</p>
+                    <p class="text-xs mt-1">Registered with Corporate Affairs Commission (CAC) - RC 1234567</p>
+                </div>
+                <div class="flex flex-wrap gap-6 text-sm text-gray-400">
+                    <a href="#" class="hover:text-accent transition duration-300">Privacy Policy</a>
+                    <a href="#" class="hover:text-accent transition duration-300">Terms of Service</a>
+                    <a href="#" class="hover:text-accent transition duration-300">Cookie Policy</a>
+                    <a href="#" class="hover:text-accent transition duration-300">Responsible Lending</a>
+                    <a href="contact.html" class="hover:text-accent transition duration-300">Help & Support</a>
+                </div>
+            </div>
+            
+            <!-- Website Credit -->
+            <div class="mt-6 pt-4 border-t border-gray-800 text-center">
+                <a href="https://www.chibuikeuffoh.com" target="_blank" class="inline-flex items-center text-xs text-gray-500 hover:text-accent transition-all duration-300 group">
+                    <span class="mr-2">🎨</span>
+                    <span class="font-medium">Website design by</span>
+                    <span class="ml-1 font-semibold text-gray-400 group-hover:text-accent underline decoration-dotted underline-offset-2">Chibuike Uffoh</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <script src="script.js"></script>
+    <script>
+        // Animated Counter Function
+        function animateCounters() {
+            const counters = document.querySelectorAll('.counter');
+            
+            counters.forEach(counter => {
+                const target = parseInt(counter.getAttribute('data-target'));
+                const duration = 2000; // 2 seconds
+                const increment = target / (duration / 16); // 60fps
+                let current = 0;
+                
+                const timer = setInterval(() => {
+                    current += increment;
+                    if (current >= target) {
+                        current = target;
+                        clearInterval(timer);
+                    }
+                    counter.textContent = Math.floor(current);
+                }, 16);
+            });
+        }
+
+        // Intersection Observer for triggering animation when in view
+        function setupCounterAnimation() {
+            const heroSection = document.querySelector('.hero-section');
+            
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        // Add a small delay for better effect
+                        setTimeout(() => {
+                            animateCounters();
+                        }, 500);
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, {
+                threshold: 0.5
+            });
+            
+            if (heroSection) {
+                observer.observe(heroSection);
+            }
+        }
+
+        // Initialize when DOM is loaded
+        document.addEventListener('DOMContentLoaded', function() {
+            setupCounterAnimation();
+        });
+    </script>
+</body>
+</html>
